@@ -9,3 +9,7 @@
 .my_bg_cyan       { background-color: #2c3e50; }
 .my_bg_green      { background-color: #1abc9c; }
 .my_bg_light_cyan { background-color: #3a546d; }
+
+.custom_div {
+    height: 5px;
+}
