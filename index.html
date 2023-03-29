@@ -13,20 +13,33 @@
 
     <header>
         <div class="my_bg_cyan"> 
-            <nav class="container-xxl text-white py-3">
-                <div class="row text-uppercase align-items-center">
-                    <div class="col-4 fs-3">Start Bootstrap</div>
-                    <div class="col-1 offset-5 fs-6">Portfolio</div>
-                    <div class="col-1 text-center fs-6">About</div>
-                    <div class="col-1 fs-6">Contact</div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-between">
+                <div class="container-xxl">
+                  <a class="navbar-brand text-uppercase fw-bold fs-3 text-white" href="#">Start Bootstrap</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars text-white"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                  </div>
                 </div>
-            </nav>
+              </nav>            
         </div>
     </header>
 
     <main>
         <!--Prima sezione: Start Bootstrap-->
-        <section>
+        <section id="start">
             <div class="container-fluid my_bg_green py-5">
                 <div class="row"> 
                     <div class="col-2 mx-auto">
@@ -63,7 +76,7 @@
         </section>
 
         <!--Seconda sezione: portfolio-->
-        <section>
+        <section id="portfolio">
             <div class="container-xxl my-5">
                 <div class="row">
                     <div class="col text-center text-uppercase fs-1">Portfolio</div>
@@ -105,7 +118,7 @@
         </section>
 
         <!--Terza sezione: About Us-->
-        <section class="my_bg_green">
+        <section id="about" class="my_bg_green">
             <div class="container-xl text-white py-3">
                 <div class="row">
                     <div class="col text-center text-uppercase fs-1">About</div>
@@ -136,7 +149,7 @@
         </section>
 
         <!--Quarta sezione: Contact Me-->
-        <section>
+        <section id="contact">
             <div class="container-xl px-5">
                 <div class="row">
                     <div class="col text-center text-uppercase fs-1">Contact Me</div>
